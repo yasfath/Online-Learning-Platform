@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Courses-EduNova</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <header>
+  <h1>Courses</h1>
+  <input type="text" id="search" placeholder="Search Courses" />
+  <a href="dashboard.html" class="dashboard-btn">Go to Dashboard</a>
+</header>
+
+
+  <main id="Course-list">
+    <!-- 1. Web Development -->
+    <div class="Course-card">
+      <img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Web Development" />
+      <h3>Web Development for Beginners</h3>
+      <p>Learn HTML, CSS, and JavaScript from scratch</p>
+      <a href="course-detail.html" onclick="viewCourseDetails(event, 'web-dev')">View Details</a>
+
+    </div>
+
+    <!-- 2. Data Science -->
+    <div class="Course-card">
+      <img src="https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Data Science" />
+      <h3>Introduction to Data Science</h3>
+      <p>Work with Python, statistics, and data analysis</p>
+      <a href="course-detail.html" onclick="viewCourseDetails(event, 'data-science')">View Details</a>
+
+    </div>
+
+    <!-- 3. Full Stack Development -->
+    <div class="Course-card">
+      <img src="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Full Stack" />
+      <h3>Full Stack Development</h3>
+      <p>Build frontend and backend apps using React and Node.js</p>
+      <a href="course-detail.html" onclick="viewCourseDetails(event, 'full-stack')">View Details</a>
+
+    </div>
+
+    <!-- 4. Cloud Computing -->
+    <div class="Course-card">
+      <img src="https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Cloud Computing" />
+      <h3>Cloud Computing Essentials</h3>
+      <p>Get started with AWS, Azure, and GCP basics</p>
+     <a href="course-detail.html" onclick="viewCourseDetails(event, 'cloud')">View Details</a>
+
+    </div>
+
+    <!-- 5. Data Analytics -->
+    <div class="Course-card">
+      <img src="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Data Analytics" />
+      <h3>Data Analytics with Power BI</h3>
+      <p>Visualize insights using Excel, Power BI, and dashboards</p>
+     <a href="course-detail.html" onclick="viewCourseDetails(event, 'Analytics')">View Details</a>
+
+    </div>
+
+    <!-- 6. UI/UX Design -->
+    <div class="Course-card">
+      <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800" alt="UI/UX Design" />
+      <h3>UI/UX Design Fundamentals</h3>
+      <p>Master user-centric design tools like Figma and Adobe XD</p>
+      <a href="course-detail.html" onclick="viewCourseDetails(event, 'uiux')">View Details</a>
+
+    </div>
+
+    <!-- 7. Cybersecurity -->
+    <div class="Course-card">
+      <img src="https://images.pexels.com/photos/5380647/pexels-photo-5380647.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Cybersecurity" />
+      <h3>Cybersecurity Basics</h3>
+      <p>Learn about digital threats, hacking, and protection methods</p>
+      <a href="course-detail.html" onclick="viewCourseDetails(event, 'cyber')">View Details</a>
+
+    </div>
+
+    <!-- 8. AI & Machine Learning -->
+    <div class="Course-card">
+      <img src="https://images.pexels.com/photos/5863418/pexels-photo-5863418.jpeg?auto=compress&cs=tinysrgb&w=800" alt="AI and ML" />
+      <h3>AI & Machine Learning</h3>
+      <p>Understand algorithms, neural networks, and automation</p>
+     <a href="course-detail.html" onclick="viewCourseDetails(event, 'ai-ml')">View Details</a>
+
+    </div>
+
+    <!-- 9. Mobile App Development -->
+    <div class="Course-card">
+      <img src="https://images.pexels.com/photos/325153/pexels-photo-325153.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Mobile App Development" />
+      <h3>Mobile App Development</h3>
+      <p>Develop Android/iOS apps using Flutter or React Native</p>
+      <a href="course-detail.html" onclick="viewCourseDetails(event, 'mobile')">View Details</a>
+
+    </div>
+  </main>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

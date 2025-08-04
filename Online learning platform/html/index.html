@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EduNova – Home</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #004466;
+      color: #fff;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    nav a {
+      color: #fff;
+      margin-left: 1.5rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      padding: 4rem 2rem;
+      background: #f3f7f9;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+
+    .btn {
+      background-color: #004466;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #004466
+    }
+
+    .features {
+      padding: 3rem 2rem;
+      text-align: center;
+      background-color: #eef3f7; /* replaced white with light subtle color */
+    }
+
+    .features h3 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .course-card {
+      background-color: white;
+      border-radius: 10px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s;
+    }
+
+    .course-card:hover {
+      transform: scale(1.03);
+    }
+
+    .cta {
+      padding: 3rem 2rem;
+      text-align: center;
+      background: #000;
+      color: white;
+    }
+
+    .cta .btn {
+      background-color: #00d1b2; /* Changed Explore Courses button color */
+    }
+
+    .cta .btn:hover {
+      background-color: #00b89c;
+    }
+
+    /* Reset and fonts */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+}
+
+.main-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 1rem 2rem;
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.site-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+
+.nav-left {
+  position: absolute;
+  left: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-left button {
+  padding: 0.5rem 1rem;
+  background-color: #00e6e6;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.nav-left button:hover {
+  background-color: #00bfbf;
+  transform: scale(1.05);
+}
+
+  </style>
+</head>
+<body>
+
+ 
+    <header class="main-header">
+  <div class="nav-left">
+    <button onclick="location.href='courses.html'">Courses</button>
+    <button onclick="location.href='login.html'">Login</button>
+  </div>
+  <h1 class="site-title">EduNova</h1>
+</header>
+
+
+  <section class="hero">
+    <h2>Welcome to EduNova 🚀</h2>
+    <p>Unlock your potential with expert-led online courses in web development, Cloud Computing, design, data science, and more.</p>
+    <a href="signup.html" class="btn">Register Now</a>
+  </section>
+
+  <section class="features">
+    <h3>Why Choose EduNova?</h3>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; margin-top: 2rem;">
+      <div class="course-card" style="max-width: 300px;">
+        <h4>🎯 Career-Focused Curriculum</h4>
+        <p>Courses built with real-world skills and job readiness in mind.</p>
+      </div>
+      <div class="course-card" style="max-width: 300px;">
+        <h4>📚 Wide Range of Topics</h4>
+        <p>From beginner HTML to advanced AI – there’s something for everyone.</p>
+      </div>
+      <div class="course-card" style="max-width: 300px;">
+        <h4>🧠 Learn at Your Own Pace</h4>
+        <p>Flexible modules, downloadable resources, and lifetime access.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h3>Ready to Start Your Learning Journey?</h3>
+    <p>Join thousands of learners growing their skills with EduNova.</p>
+    <a href="courses.html" class="btn">Explore Courses</a>
+  </section>
+
+  <script src="../js/theme.js"></script>
+</body>
+</html>
